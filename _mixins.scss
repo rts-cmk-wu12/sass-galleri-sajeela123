@@ -1,0 +1,18 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+  @media (max-width: 480px) {
+    .header__title {
+        font-size: 1.5rem;
+    }
+  
+    .gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
